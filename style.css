@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Louise; /* set name */
+  src: url(Louise-Regular.woff2); /* url of the font */
+}
+
+p {
+  font-family: Louise; /* use font */
+}
