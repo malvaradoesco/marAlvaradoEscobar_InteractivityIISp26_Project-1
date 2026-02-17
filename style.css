@@ -8,7 +8,7 @@ p {
 }
 
 .center{
-  position: relative;
+  position: absolute;
   transform: translate(0,0);
   margin: 1vw;
   padding: 1vw;
@@ -34,15 +34,35 @@ h1{
     font-size: 80px;
     color: rgba(223, 186, 40, 0.992);
     font-family: Louise;
+    width: auto;
+    height: 60vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+    margin: 5vw;
+    position: absolute;
 }
 
 .cat{
     width: 15vw;
     height: auto;
+    position: absolute;
 
 }
 
 .frog{
     width: 15vw;
     height: auto;
+    position: absolute;
+}
+
+.cat2{
+  width: 10vw;
+  height: auto;
+  position: absolute;
+}
+.frog2{
+  width: 10vw;
+  height: auto;
+  position: absolute;
 }
