@@ -54,6 +54,7 @@ h1{
     width: 15vw;
     height: auto;
     position: absolute;
+    animation: MoveUpDown 10s linear infinite;
 }
 
 .cat2{
