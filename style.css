@@ -43,6 +43,20 @@ h1{
     position: absolute;
 }
 
+p{
+  font-size: 30px;
+  color: rgba(223, 186, 40, 0.992);
+  font-family: Louise;
+  width: auto;
+  height: 10vw;
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+  margin: 1vw;
+  position: absolute;
+  left: 8%;
+  top: 85%;
+}
 .cat{
     width: 15vw;
     height: auto;
