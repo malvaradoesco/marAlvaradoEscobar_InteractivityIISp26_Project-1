@@ -64,11 +64,30 @@ p{
 
 }
 
+.cat:hover{
+  transform: scale(2);
+    animation: moveAround 2s infinite ease-in-out;
+}
+
 .frog{
     width: 15vw;
     height: auto;
     position: absolute;
-    animation: MoveUpDown 10s linear infinite;
+}
+
+.frog:hover{
+  transform: scale(2);
+     animation: moveAround 2s infinite ease-in-out;
+}
+.heart{
+  width: 200px; 
+  height: auto; 
+  position: absolute
+}
+
+.heart:hover{
+  transform: scale(2);
+     animation: pulse 2s infinite ease-in-out;
 }
 
 .cat2{
@@ -76,8 +95,109 @@ p{
   height: auto;
   position: absolute;
 }
+
+.cat2:hover{
+  transform: scale(1.05) rotate(-8deg);
+}
 .frog2{
   width: 10vw;
   height: auto;
   position: absolute;
+}
+
+.frog2:hover{
+  transform: scale(1.05) rotate(8deg);
+}
+
+
+.frog3{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+}
+
+.frog3:hover{
+    animation: pulse 3s infinite ease-in-out;
+}
+
+.cat3{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+}
+
+.cat3:hover{
+    transform: scale(2) rotate(2deg);
+}
+
+.frog4{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+}
+
+.frog4:hover{
+    transform: scale(1.05) rotate(2deg);
+}
+
+.cat4{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+}
+
+.cat4:hover{
+  transform: scale(1.05);
+  animation: shake 1s infinite
+}
+
+.cat-pure{
+  position: absolute; 
+  height: 50vw; 
+  width: auto;
+}
+
+.cat-pure:hover{
+  animation: pulse 5s infinite ease-in-out;
+}
+
+.frog5{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+}
+
+.frog5:hover{
+    transform: scale(1.05) translateX(30px) translateY(-10px);
+}
+
+.cat5{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+}
+
+.cat5:hover{
+ transform: scale(1.05) translateX(30px)
+}
+
+/* Animations */
+@keyframes pulse {
+    0% { transform: scale(1.05); }
+    50% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0) scale(1.05); }
+    25% { transform: translateX(-5px) scale(1.05); }
+    75% { transform: translateX(5px) scale(1.05); }
+}
+
+@keyframes moveAround {
+    0% { transform: translate(0, 0) scale(1.05); }
+    25% { transform: translate(5px, -5px) scale(1.05); }
+    50% { transform: translate(0, 0) scale(1.05); }
+    75% { transform: translate(-5px, 5px) scale(1.05); }
+    100% { transform: translate(0, 0) scale(1.05); }
 }
