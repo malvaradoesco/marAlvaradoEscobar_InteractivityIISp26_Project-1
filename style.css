@@ -3,6 +3,13 @@
   src: url(Louise-Regular.woff2); /* url of the font */
 }
 
+.sue-ellen-francisco-regular {
+  font-family: "Sue Ellen Francisco", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 p {
   font-family: Louise; /* use font */
 }
@@ -46,7 +53,7 @@ h1{
 p{
   font-size: 30px;
   color: rgba(223, 186, 40, 0.992);
-  font-family: Louise;
+  font-family: LouiSue Ellen Francisco, cursive;
   width: auto;
   height: 10vw;
   display: flex;
@@ -127,7 +134,7 @@ p{
 }
 
 .cat3:hover{
-    transform: scale(2) rotate(2deg);
+    transform: scale(1.05) rotate(2deg);
 }
 
 .frog4{
@@ -178,7 +185,49 @@ p{
 }
 
 .cat5:hover{
- transform: scale(1.05) translateX(30px)
+  transform: scale(1.05) translateX(30px)
+}
+
+.frog6{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+}
+
+.frog6:hover{
+  transform: scale(1.05) translateX(20px)
+}
+
+.cat6{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+}
+
+.cat6:hover{
+    transform: scale(1.05) translateY(10px);
+}
+
+.frog7{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+}
+
+.frog7:hover{
+  transform: scale(1.05) translateX(10px);
+  animation: pulse 2s infinite ease-in-out;
+}
+
+.cat7{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+}
+
+.cat7:hover{
+  transform: scale(1.05) translateX(-10px);
+  animation: pulse 2s infinite ease-in-out;
 }
 
 /* Animations */
